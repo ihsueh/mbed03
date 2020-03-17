@@ -2,11 +2,14 @@
     "configurations": [
         {
             "name": "Linux",
-            "defines": [],
+            "defines":[],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "/home/ee2405/ee2405/mbed-os/**"
+            ]
         }
     ],
     "version": 4
