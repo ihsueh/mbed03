@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 PwmOut PWM1(D6);
-AnalogIn Ain(A0);
+AnalogIn Ain(A1);
 
 int main(){
   while(1){
